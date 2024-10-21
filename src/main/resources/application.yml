@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: many-to-many
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  datasource:
+    password: pirate
+    username: appuser
+    url: jdbc:postgresql://localhost:5432/appdb
+
